@@ -5,23 +5,23 @@ class Pollen < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/groupbees/pollen/releases/download/v0.2.0/pollen-aarch64-apple-darwin-v0.2.0.tar.gz"
-      sha256 "62e7bfc81bca69972657bd3c6c4d948bb4ed4c5e9e5ccce5df539f19678bbd77"
+      url "https://github.com/groupbees/pollen/releases/download/v0.3.0/pollen-aarch64-apple-darwin-v0.3.0.tar.gz"
+      sha256 "742ff8f54b69a339a2af0ee14fdb65676bf178ad878a68005418f112fcf78403"
     end
     on_intel do
-      url "https://github.com/groupbees/pollen/releases/download/v0.2.0/pollen-x86_64-apple-darwin-v0.2.0.tar.gz"
-      sha256 "324aac6c89decd4518f8eb6bcb5448bc2d7be8badfe2696735f117d7e9dc2b81"
+      url "https://github.com/groupbees/pollen/releases/download/v0.3.0/pollen-x86_64-apple-darwin-v0.3.0.tar.gz"
+      sha256 "a3a5f408ddc6f8109e760f58a00231df94d08a3bfb24db96ad807d9e7f8919d3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/groupbees/pollen/releases/download/v0.2.0/pollen-aarch64-unknown-linux-musl-v0.2.0.tar.gz"
-      sha256 "f95ab5a261384efb0180f238c87bb8c1251ab78bbc8c5f990724ce4b9e310929"
+      url "https://github.com/groupbees/pollen/releases/download/v0.3.0/pollen-aarch64-unknown-linux-musl-v0.3.0.tar.gz"
+      sha256 "6857c1212ee32f0bf96a5817f31fb9b2748e3465efab4476b5cda728ee624019"
     end
     on_intel do
-      url "https://github.com/groupbees/pollen/releases/download/v0.2.0/pollen-x86_64-unknown-linux-musl-v0.2.0.tar.gz"
-      sha256 "b9cff0cbd22a15df0893587e6c278a98783345a30e9b54fbef44c547b7a8e7a4"
+      url "https://github.com/groupbees/pollen/releases/download/v0.3.0/pollen-x86_64-unknown-linux-musl-v0.3.0.tar.gz"
+      sha256 "ece21ec46d92c4b13a5fd584722b47ef8a188f74fafd8a721e29b4c988b373d8"
     end
   end
 
